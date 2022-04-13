@@ -1,0 +1,15 @@
+print("Digite o seu nome: ")
+nome = str(input())
+print("Digite o valor do produto: ")
+valor = float(input())
+print("Digite a forma de pagamento: ")
+forma = str(input())
+if forma == "a vista":
+  print(nome)
+  print(forma)
+  print(valor)
+  print(valor-(valor * 0.07))
+else:
+  print(nome)
+  print(forma)
+  print(valor)
